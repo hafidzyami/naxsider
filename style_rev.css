@@ -1,3 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -105,6 +114,143 @@
     background-color: silver;
 }
 
+/* About Us */
+.aboutUs{
+    height: 100vh;
+    width: 100%;
+    background: rgb(15, 15, 15);
+    position: relative;
+    top:-5.5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.aboutUs h1{
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 120px;
+    left: 43.5%;
+}
+
+.containerBox{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(180px);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    color: white;
+    height: 300px;
+    padding: 20px;
+    width: 300px;
+}
+
+.box h2{
+    margin-bottom: 20px;
+}
+
+.box1{
+    background: linear-gradient(#00416a, #1f5a80);
+}
+.box2{
+    background: linear-gradient(#203A43, #2C5364);
+}
+
+.box3{
+    background: linear-gradient(#0b5688, #005AA7);
+}
+
+
+/* Members */
+.members{
+    height: 200vh;
+    width: 100%;
+    background: white;
+    position: relative;
+    top:-5.5px;
+}
+
+.members h1{
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    left: 45%;
+    text-transform: uppercase;
+
+}
+
+.containerMember{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    transform: translateY(130px);
+}
+
+.member{
+    height: 450px;
+    width: 300px;
+    border-radius: 1px solid black;
+    background: linear-gradient(#1c92d2, #f2fcfe);
+    text-align: center;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.5);
+    margin-top: 50px;
+}
+
+.member:nth-child(even){
+    background: linear-gradient(#0052D4, #65C7F7, #9CECFB, #f2fcfe);
+}
+.foto1{
+    background: url(img/hafidz.jpg);
+}
+.foto2{
+    background: url(img/yw.jpg);
+}
+
+.foto3{
+    background: url(img/yw.jpg);
+}
+
+.foto4{
+    background: url(img/yw.jpg);
+}
+
+.foto5{
+    background: url(img/yw.jpg);
+}
+
+.foto6{
+    background: url(img/yw.jpg);
+}
+
+.foto7{
+    background: url(img/yw.jpg);
+}
+
+.foto8{
+    background: url(img/yw.jpg);
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 30px auto;
+
+}
+
+.member h2{
+    transform: translateY(-10px);
+}
+
+.member p{
+    font-size: 14px;
+}
+
 /* Coming Soon */
 .banner{
     position: relative;
@@ -128,7 +274,6 @@
     right: 10px;
     bottom: 10px;
     color: rgba(255,255,255,0.5)
-
     
 }
 
@@ -146,9 +291,18 @@
 
 /* Media Queries  */
 @media (max-width:700px){
+    html{
+        scroll-behavior: smooth;
+    }
+    
     .content h1{
         font-size: 45px;
         text-align: center;
+    }
+
+    .navigation{
+        width: 100vw;
+        position: fixed;
     }
 
     .navigation img{
@@ -157,6 +311,10 @@
 
     .banner{
         height: 90vh;
+    }
+
+    .banner h4{
+        transform: translateY(-7px);
     }
     
     .nav-links{
@@ -183,7 +341,45 @@
         padding: 33px 30px;
     }
 
-    .na
+    /* About Us */
+
+    .aboutUs{
+        height: 160vh;
+    }
+
+    .aboutUs h1{
+        position: relative;
+        left: -5px;
+    }
+    .containerBox{
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+
+    /* Members */
+    .members{
+        height: 200vh;
+    }
+
+    .members h1{
+        position: relative;
+        left: -3px;
+    }
+
+    .containerMember{
+        flex-wrap: wrap;
+    }
+
+    .member{
+        width: 80%;
+        padding: 10px;
+    }
+
 
 
 
