@@ -294,6 +294,11 @@ html, body {
     html{
         scroll-behavior: smooth;
     }
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     
     .content h1{
         font-size: 45px;
@@ -344,7 +349,8 @@ html, body {
     /* About Us */
 
     .aboutUs{
-        height: 160vh;
+        height: 1200px;
+        width: 100vw;
     }
 
     .aboutUs h1{
@@ -363,7 +369,8 @@ html, body {
 
     /* Members */
     .members{
-        height: 600vh;
+        height: 4500px;
+        width: 100%;
     }
 
     .members h1{
