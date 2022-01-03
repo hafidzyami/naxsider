@@ -168,7 +168,7 @@ html, body {
 .members{
     height: 200vh;
     width: 100%;
-    background: white;
+    background: linear-gradient(#ECE9E6, #FFFFFF);
     position: relative;
     top:-5.5px;
 }
@@ -363,7 +363,7 @@ html, body {
 
     /* Members */
     .members{
-        height: 200vh;
+        height: 550vh;
     }
 
     .members h1{
