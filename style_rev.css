@@ -294,12 +294,11 @@ html, body {
     html{
         scroll-behavior: smooth;
     }
-
-    html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
     
+    .containerAwal{
+        width: 100vw;
+    }
+
     .content h1{
         font-size: 45px;
         text-align: center;
