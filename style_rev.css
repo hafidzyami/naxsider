@@ -297,8 +297,7 @@ html, body {
     
     .containerAwal{
         width: 100vw;
-        height: 748px;
-        background-size: cover;
+        height: 100vh;
     }
 
     .content h1{
@@ -351,7 +350,7 @@ html, body {
 
     .aboutUs{
         height: 1200px;
-        width: 100vw;
+        width: 100%;
     }
 
     .aboutUs h1{
