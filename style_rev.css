@@ -297,6 +297,8 @@ html, body {
     
     .containerAwal{
         width: 100vw;
+        height: 748px;
+        background-size: cover;
     }
 
     .content h1{
