@@ -1,2 +1,2 @@
 Belajar buat web statik simple
-https://hafidzshidqi.github.io/naxsider/
+https://hafidzyami.github.io/naxsider/
